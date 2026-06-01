@@ -32,3 +32,4 @@ TechForge displays CRUD functionality, database design, user authentication, for
 The main goal of TechForge is to provide users with a simple, secure, and  modern tech shop, allowing them to browse tech products, manage their shopping basket, and complete transactions through an easy-to-use platform.
 
 ## Project Purpose
+TechForge focuses on bringing simplicity back into online shopping. This is achieved by removing unnecessary advertisements, promotional pop-ups and complex user interfaces, leading to a terrible UX. This application allows users to simply browse through the store stress-free, as they know exactly what they are getting. 
