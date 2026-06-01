@@ -2,6 +2,7 @@
 ## Table of Contents 
 - [Introduction to TechForge](#introduction-to-techforge)
 - [Project Purpose](#project-purpose)
+- [Target Audience](#target-audience)
 ## Introduction to TechForge
 TechForge is a web-based e-commerce application. This app was developed using Django framework which allows users to login to the app, browse their desired tech products, all through a simple and user-friendly browsing menu. 
 
@@ -33,3 +34,9 @@ The main goal of TechForge is to provide users with a simple, secure, and  moder
 
 ## Project Purpose
 TechForge focuses on bringing simplicity back into online shopping. This is achieved by removing unnecessary advertisements, promotional pop-ups and complex user interfaces, leading to a terrible UX. This application allows users to simply browse through the store stress-free, as they know exactly what they are getting. 
+
+## Target Audience
+
+The target audience for TechForge is anyone looking to purchase tech products. The app is not designed with a specific section in mind, for example gamers. TechForge will have something for anyone, creating a diverse portfolio of customers. While other shops use heavy advertisement and promos, TechForge forgoes all of that, to create a stress-free environment. 
+
+Whether you are a student looking for a laptop or tablet, a gamer looking for a console or gaming PC, or someone in desperate need of a printer to print out their travel insurance, TechForge has something for their needs. This means it should appeal to a broader audience regardless of their tech knowledge or prior online shopping experience.
