@@ -53,14 +53,128 @@ For this project, I used the MoSCoW methodology to prioritise certain features t
 #### User Registration
 
 As a: User
+
+
 I want to: Create an account on the login page.
+
 So that: I can access the rest of the shop and purchase products
+
 Acceptance Criteria:
+
 * User can create an account.
 * Users must provide valid information such as email address, and password. 
 * Once account has been created, users can login. 
 * Invalid details prompts an error message.
 * Authorised users have access to the TechForge store.
+
+#### User Login
+As a: User: 
+
+I want to: 
+
+So that: 
+
+Acceptance Criteria:
+
+#### User Logout 
+
+As a: User: 
+
+I want to: 
+
+So that: 
+
+Acceptance Criteria:
+
+#### Browse Product Categories
+
+As a: User: 
+
+I want to: 
+
+So that: 
+
+Acceptance Criteria:
+
+#### View Products 
+
+As a: User: 
+
+I want to: 
+
+So that: 
+
+Acceptance Criteria:
+
+#### View Product Details
+
+As a: User: 
+
+I want to: 
+
+So that: 
+
+Acceptance Criteria:
+
+#### Add Product to Basket 
+
+As a: User: 
+
+I want to: 
+
+So that: 
+
+Acceptance Criteria:
+
+#### Update Basket Quantity 
+
+As a: User: 
+
+I want to: 
+
+So that: 
+
+Acceptance Criteria:
+
+#### Remove Product from Basket
+
+As a: User: 
+
+I want to: 
+
+So that: 
+
+Acceptance Criteria:
+
+#### Checkout 
+
+As a: User: 
+
+I want to: 
+
+So that: 
+
+Acceptance Criteria:
+
+#### View Order History 
+
+As a: User: 
+
+I want to: 
+
+So that: 
+
+Acceptance Criteria:
+
+#### Leave Product Reviews
+
+As a: User: 
+
+I want to: 
+
+So that: 
+
+Acceptance Criteria:
 
 ### Should Have
 
