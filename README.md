@@ -4,6 +4,7 @@
 - [Project Purpose](#project-purpose)
 - [Target Audience](#target-audience)
 - [MoSCoW Methodology](#moscow-methodology)
+- [User Stories](#user-stories)
 ## Introduction to TechForge
 TechForge is a web-based e-commerce application. This app was developed using Django framework which allows users to login to the app, browse their desired tech products, all through a simple and user-friendly browsing menu. 
 
@@ -44,3 +45,13 @@ Whether you are a student looking for a laptop or tablet, a gamer looking for a 
 
 ## MoSCoW Methodology 
 For this project, I used the MoSCoW methodology to prioritise certain features throughout the development of the app. This approach was split up into three sections: Must Have, Should Have, Could Have, and Won't Have. This helped ensure that functionality was completed first, before adding extra content, making the scope of the project manageable.
+
+## User Stories
+
+### Must Have
+
+### Should Have
+
+### Could Have
+
+### Won't Have
