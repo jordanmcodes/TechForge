@@ -3,6 +3,7 @@
 - [Introduction to TechForge](#introduction-to-techforge)
 - [Project Purpose](#project-purpose)
 - [Target Audience](#target-audience)
+- [MoSCoW Methodology](#moscow-methodology)
 ## Introduction to TechForge
 TechForge is a web-based e-commerce application. This app was developed using Django framework which allows users to login to the app, browse their desired tech products, all through a simple and user-friendly browsing menu. 
 
@@ -40,3 +41,6 @@ TechForge focuses on bringing simplicity back into online shopping. This is achi
 The target audience for TechForge is anyone looking to purchase tech products. The app is not designed with a specific section in mind, for example gamers. TechForge will have something for anyone, creating a diverse portfolio of customers. While other shops use heavy advertisement and promos, TechForge forgoes all of that, to create a stress-free environment. 
 
 Whether you are a student looking for a laptop or tablet, a gamer looking for a console or gaming PC, or someone in desperate need of a printer to print out their travel insurance, TechForge has something for their needs. This means it should appeal to a broader audience regardless of their tech knowledge or prior online shopping experience.
+
+## MoSCoW Methodology 
+For this project, I used the MoSCoW methodology to prioritise certain features throughout the development of the app. This approach was split up into three sections: Must Have, Should Have, Could Have, and Won't Have. This helped ensure that functionality was completed first, before adding extra content, making the scope of the project manageable.
