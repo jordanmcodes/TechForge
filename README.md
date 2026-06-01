@@ -1,6 +1,7 @@
 # TechForge
 ## Table of Contents 
 - [Introduction to TechForge](#introduction-to-techforge)
+- [Project Purpose](#project-purpose)
 ## Introduction to TechForge
 TechForge is a web-based e-commerce application. This app was developed using Django framework which allows users to login to the app, browse their desired tech products, all through a simple and user-friendly browsing menu. 
 
@@ -29,3 +30,5 @@ TechForge displays CRUD functionality, database design, user authentication, for
 
 ### Primary Goal
 The main goal of TechForge is to provide users with a simple, secure, and  modern tech shop, allowing them to browse tech products, manage their shopping basket, and complete transactions through an easy-to-use platform.
+
+## Project Purpose
