@@ -50,6 +50,18 @@ For this project, I used the MoSCoW methodology to prioritise certain features t
 
 ### Must Have
 
+#### User Registration
+
+As a: User
+I want to: Create an account on the login page.
+So that: I can access the rest of the shop and purchase products
+Acceptance Criteria:
+* User can create an account.
+* Users must provide valid information such as email address, and password. 
+* Once account has been created, users can login. 
+* Invalid details prompts an error message.
+* Authorised users have access to the TechForge store.
+
 ### Should Have
 
 ### Could Have
