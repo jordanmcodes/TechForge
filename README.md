@@ -187,13 +187,19 @@ Acceptance Criteria:
 
 #### Checkout 
 
-As a: User: 
+As a: User
 
-I want to: 
+I want to: Complete my session through the checkout page.
 
-So that: 
+So that: I can place an order on the products I selected.
 
 Acceptance Criteria:
+* Users can review basket before going to checkout.
+* Users must provide all required checkout information.
+* Users can complete the payment process through the online payment system. 
+* When a successful payment is made, an order record is created. 
+* Users receive confirmation that their order has been made successfully.
+* Unsucessful payments prompts an error message.
 
 #### View Order History 
 
