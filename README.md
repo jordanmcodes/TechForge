@@ -113,13 +113,18 @@ Acceptance Criteria:
 
 #### View Products 
 
-As a: User: 
+As a: User
 
-I want to: 
+I want to: view all available products TechForge has to offer.
 
-So that: 
+So that: I can browse all available products before making purchase.
 
 Acceptance Criteria:
+* Users can see every product. 
+* Products display important information, such as an image, the name of the item, and its price. 
+* The layout for the products is clear. 
+* Users can browse products within selected category, not displaying unrelated products. 
+* Users have access to additional info if required. 
 
 #### View Product Details
 
