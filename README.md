@@ -5,6 +5,7 @@
 - [Target Audience](#target-audience)
 - [MoSCoW Methodology](#moscow-methodology)
 - [User Stories](#user-stories)
+- [User Experience(UX)](#user-experience-ux)
 ## Introduction to TechForge
 TechForge is a web-based e-commerce application. This app was developed using Django framework which allows users to login to the app, browse their desired tech products, all through a simple and user-friendly browsing menu. 
 
@@ -237,3 +238,8 @@ Acceptance Criteria:
 ### Could Have
 
 ### Won't Have
+
+## User Experience (UX)
+### User Journey
+### UX Goals
+### Accessibility and Usability 
