@@ -143,13 +143,18 @@ Acceptance Criteria:
 
 #### Add Product to Basket 
 
-As a: User: 
+As a: User 
 
-I want to: 
+I want to: Add products to my shopping basket. 
 
-So that: 
+So that: I can purchase them when its time to checkout.
 
 Acceptance Criteria:
+* Users can successfully add products to their basket.
+* Users can adjust the quantity for the items in their basket. If they want more than one laptop, they can click the button to add another. 
+* When products are added to the basket, they display immediately. 
+* Users can see the basket total price, and basket number has increased the second they add another product. 
+
 
 #### Update Basket Quantity 
 
