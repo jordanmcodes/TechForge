@@ -273,3 +273,14 @@ TechForge focusses on:
 
 The aim of TechForge is to free the users of distractions, focussing solely on their task, which is browsing and potentially purchasing products.
 ### Accessibility and Usability 
+
+Usability and simplicity was at the core when developing the TechForge application. This app focusses on a straightforward shopping experience, allowing the user to browse products without any distractions.
+
+The interface uses a clear and consistent layout, ensuring that the users can easily nevagiate between the login page, the main menu, and the respective category pages quickly and efficiently. The navigation bar is clear and tells the user exactly what they need to know, so that they can get on with purchasing their desired product quickly. 
+
+Validation is also a key feature of this application, with forms throughout the store, ensisting customers adhere to the rules of the validation. For example, when creating an account with TechForge, customers must use a real email address so that we can verify the user, otherwise an error message will appear, asking the user to provide a valid email. 
+
+Have you ever shopped on a lower tier application like Temu, that is riddled with advertisements, scams, and uneccessary information that distracts the user from their objective -- who wants to spin a wheel when they are trying to shop for trainers! 
+
+Lastly, user accounts are protected through authentication, and those accounts can only be accessed by them. The checkout system uses a secure payment system, ensuring their finances are handled with the best care. 
+
