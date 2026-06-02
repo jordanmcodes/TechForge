@@ -203,13 +203,18 @@ Acceptance Criteria:
 
 #### View Order History 
 
-As a: User: 
+As a: User 
 
-I want to: 
+I want to: view my order history.
 
-So that: 
+So that: I can keep track of my orders and their details.
 
 Acceptance Criteria:
+* Users can see a full historic record of their orders.
+* Users can view details of a specific order.
+* Users can only see orders from their account, not other people.
+* Order information includes the order id, the products, their quantities, prices, and the date of order. 
+* Users have access to their order history via their profile page. 
 
 #### Leave Product Reviews
 
