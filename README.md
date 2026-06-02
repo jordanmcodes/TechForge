@@ -299,3 +299,5 @@ Below is an image for the following wireframes:
 * Gaming Consoles
 * Accessories 
 * Checkout 
+
+![Wireframes]
