@@ -128,13 +128,18 @@ Acceptance Criteria:
 
 #### View Product Details
 
-As a: User: 
+As a: User
 
-I want to: 
+I want to: View detailed info about a product
 
-So that: 
+So that: I can decide what to purchase.
 
 Acceptance Criteria:
+* Clicking on the product brings up additional information. 
+* Product info includes image of product, name, the category its in, and price. 
+* Product display is easy to read. 
+* Users can add the product to their basket from the product page. 
+* Users have an east way of navigating back to the category page. 
 
 #### Add Product to Basket 
 
