@@ -172,13 +172,18 @@ Acceptance Criteria:
 
 #### Remove Product from Basket
 
-As a: User: 
+As a: User
 
-I want to: 
+I want to: Remove any product I want from the basket. 
 
-So that: 
+So that: the items I no longer wish to buy are removed.
 
 Acceptance Criteria:
+* Users can completely remove products from the basket. 
+* Removed items no longer appears in the basket.
+* The total price of the basket adjusts when an item is removed. 
+* Users can continue shopping after an item has been removed. 
+* Users can re-add the product later if they change their mind.
 
 #### Checkout 
 
