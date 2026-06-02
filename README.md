@@ -241,5 +241,35 @@ Acceptance Criteria:
 
 ## User Experience (UX)
 ### User Journey
+Below details the user journey for both a first time visitor, and a returning visitor and how they will both interact with the application. 
+
+#### First Time User
+1. Visits the login page
+2. Creates an account 
+3. Logs into the system 
+4. Gains access to the TechForge store
+5. Browses product details and prices
+6. Adds chosen products to their basket
+7. Proceeds to checkout to complete purchase
+
+#### Returning User
+1. Logs into their TechForge account
+2. Access the TechForge store
+3. Browses product details and prices 
+4. Adds chosen products to their basket
+5. If needed, updates basket to amend their order
+6. Completes checkout 
+7. Reviews order history via their profile 
+8. Leaves review on previous product purchases (optional)
+
 ### UX Goals
+With TechForge, the primary goal is to create a stress-free online shopping experience that allows users to browse and quickly purchase products without all of the extra distractions you often see on shopping sites. 
+
+TechForge focusses on: 
+* Simplicity: A clean and easy-to read design that is easy to navigate.
+* Clarity: Products, menu buttons, images, and more are displayed clearly and are visibly organised. 
+* Effiency: Users can quickly find what they are looking for, proceed to checkout, and pay for their items in a matter of minutes. 
+* Trust: Users are welcomed to a transparent experience, free of advertisements, promotional pop-ups, and continuous discount messages. 
+
+The aim of TechForge is to free the users of distractions, focussing solely on their task, which is browsing and potentially purchasing products.
 ### Accessibility and Usability 
