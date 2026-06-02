@@ -158,13 +158,17 @@ Acceptance Criteria:
 
 #### Update Basket Quantity 
 
-As a: User: 
+As a: User
 
-I want to: 
+I want to: Update the quantity of a product in my basket 
 
-So that: 
+So that: my order can be updated before checking out.
 
 Acceptance Criteria:
+* Users can increase the number of products in the basket.
+* Users can decrease the number of products in the basket.
+* No number can go below one.
+* When products are increased or decreased, basket total updates immediately. 
 
 #### Remove Product from Basket
 
