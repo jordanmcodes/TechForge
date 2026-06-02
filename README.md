@@ -68,23 +68,33 @@ Acceptance Criteria:
 * Authorised users have access to the TechForge store.
 
 #### User Login
-As a: User: 
+As a: User
 
-I want to: 
+I want to:  Log into the account I have made.
 
-So that: 
+So that:  I can acccess the TechForge shop and my saved account info.
 
 Acceptance Criteria:
+* Using valid information, such as email, users can log into their account.
+* If user enters incorrect information, an error message appears.
+* Users that are logged in can access TechForge.
+* Additionally, users that are logged in can access their personal profile.
+* Users are only logged out when they click the logout button.
 
 #### User Logout 
 
-As a: User: 
+As a: User
 
-I want to: 
+I want to: Log out of my TechForge account.
 
-So that: 
+So that: My TechForge account is secure when I am finished. 
 
 Acceptance Criteria:
+* Users that are logged in can successfully log out.
+* After logging out, users are redirected.
+* When users are logged out, they no longer have access to TechForge.
+* To regain access to TechForge, users have to login again. 
+* When a user logs out, they will see a confirmation message.
 
 #### Browse Product Categories
 
