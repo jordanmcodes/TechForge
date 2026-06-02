@@ -98,13 +98,18 @@ Acceptance Criteria:
 
 #### Browse Product Categories
 
-As a: User: 
+As a: User
 
-I want to: 
+I want to: Browse the various product categories.
 
-So that: 
+So that: I can find the products I am interesting in browsing/purchasing.
 
 Acceptance Criteria:
+* Users will be able to see all product categories.
+* In the navigation bar, categories are clearly displayed.
+* Selecting a category takes the users to the specific page for that category. 
+* Users will have no issues quickly navigating between categories.
+* Only products belonging to that category are displayed. For example, iPhone 17 only belongs to mobile devices. 
 
 #### View Products 
 
