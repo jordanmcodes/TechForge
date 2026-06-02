@@ -6,6 +6,7 @@
 - [MoSCoW Methodology](#moscow-methodology)
 - [User Stories](#user-stories)
 - [User Experience(UX)](#user-experience-ux)
+- [Design and Planning](#design-and-planning)
 ## Introduction to TechForge
 TechForge is a web-based e-commerce application. This app was developed using Django framework which allows users to login to the app, browse their desired tech products, all through a simple and user-friendly browsing menu. 
 
@@ -284,3 +285,4 @@ Have you ever shopped on a lower tier application like Temu, that is riddled wit
 
 Lastly, user accounts are protected through authentication, and those accounts can only be accessed by them. The checkout system uses a secure payment system, ensuring their finances are handled with the best care. 
 
+## Design and Planning 
