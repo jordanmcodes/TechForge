@@ -300,4 +300,4 @@ Below is an image for the following wireframes:
 * Accessories 
 * Checkout 
 
-![Wireframes]
+![Wireframes](#assets/techforgewireframes.png)
