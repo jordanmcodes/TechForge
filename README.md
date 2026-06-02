@@ -7,6 +7,7 @@
 - [User Stories](#user-stories)
 - [User Experience(UX)](#user-experience-ux)
 - [Design and Planning](#design-and-planning)
+- [Database Schema](#database-schema)
 
 ## Introduction to TechForge
 TechForge is a web-based e-commerce application. This app was developed using Django framework which allows users to login to the app, browse their desired tech products, all through a simple and user-friendly browsing menu. 
@@ -301,3 +302,21 @@ Below is an image for the following wireframes:
 * Checkout 
 
 ![Wireframes](assets/techforgewireframes.png)
+
+## Database Schema
+
+### Entity Relationship Diagram
+
+### Category Model
+
+### Product Model
+
+### Profile Model
+
+### Order Model
+
+### Order Item Model
+
+### Review Model
+
+### Database Relationships
