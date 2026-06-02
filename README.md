@@ -218,13 +218,19 @@ Acceptance Criteria:
 
 #### Leave Product Reviews
 
-As a: User: 
+As a: User
 
-I want to: 
+I want to: Leave reviews of the products I purchased.
 
-So that: 
+So that: I can give my input and express my thoughts on the products.
 
 Acceptance Criteria:
+* Logged in users can leave reviews.
+* Users can provide a rating and a review.
+* Reviews are displayed on the product page. 
+* Users can edit their own reviews at any time. 
+* Users can delete their reviews.
+* Users do not have access to editing or deleting reviews made by others. 
 
 ### Should Have
 
