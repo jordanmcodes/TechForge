@@ -399,7 +399,7 @@ The product model is where all the information regarding the products available 
 ### Profile Model
 The profile model is an extension of Django's built-in model to help store personal information about the user such as phone number and address. Each user on TechForge has one profile, highlighting the one-to-one relationship between the user and profile models. 
 ### Order Model
-
+When a user completes an order, that information is stored in the order model. The information includes which customer placed the order, the date in which the order took place, the total basket price of the order, and the status of the order, for example, out for delivery. Additionally, the order model allows users to view their order history, enabling TechForge to maintain a record of all completed orders through the checkout system. One user can have many orders, highlighting the one-to-many relationship.
 ### Order Item Model
 
 ### Review Model
