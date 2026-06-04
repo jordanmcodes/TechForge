@@ -446,3 +446,11 @@ The database schema for TechForge comprises of several relationships that helps 
 ### Product Reviews 
 
 ### User Profiles
+
+## Technologies Used 
+### Languages
+### Frameworks 
+### Libraries 
+### Databases
+### Tools and Programs
+
