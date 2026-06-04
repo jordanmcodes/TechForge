@@ -237,6 +237,59 @@ Acceptance Criteria:
 * Users do not have access to editing or deleting reviews made by others. 
 
 ### Should Have
+#### Product Search
+As a: User
+
+I want to: Search for products in a search bar
+
+So that: I can quickly find the product I am after.
+
+Acceptance Criteria:
+* Users can search for the item they want in a search bar.
+* Relevant products displayed after product search.
+* App promps user if no products match the name.
+* Users can continue browsing after searching for a product.
+
+#### Store Delivery Information 
+As a: User
+
+I want to: Save my delivery info to my personal profile.
+
+So that: I don't need to repeatedly enter it during checkout.
+
+Acceptance Criteria:
+* Users can save their info within their personal profiles.
+* Saved information automatically appears when users are on checkout page.
+* Users have the option to update their saved information.
+* Only account owner has access to their private information.
+
+#### Sort Products 
+
+As a: User
+
+I want to: Sort products by different criteria
+
+So that: Browsing becomes easier. 
+
+Acceptance Criteria:
+* Users can sort by price.
+* Users can sort products alphabetically.
+* Product display changes when user sorts.
+* Users can change sorting options at any time during their session.
+
+#### View Pending Orders
+
+As a: User
+
+I want to: View my pending orders separately from past orders.
+
+So that: I can easily track the products I am waiting for.
+
+Acceptance Criteria:
+* Users can view pending orders on their profile page.
+* Pending orders will display basic order info. 
+* Users can tell the difference between a pending order and a completed one.
+* Users can only view orders linked to their account. 
 
 ### Could Have
 
