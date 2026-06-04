@@ -397,7 +397,7 @@ The category model separates the different products into their respective catego
 ### Product Model
 The product model is where all the information regarding the products available to purchase in the store is placed. Product name, price, description, image, and stock available makes up one product in the store. 
 ### Profile Model
-
+The profile model is an extension of Django's built-in model to help store personal information about the user such as phone number and address. Each user on TechForge has one profile, highlighting the one-to-one relationship between the user and profile models. 
 ### Order Model
 
 ### Order Item Model
