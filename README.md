@@ -363,7 +363,7 @@ The aim of TechForge is to free the users of distractions, focussing solely on t
 
 Usability and simplicity was at the core when developing the TechForge application. This app focusses on a straightforward shopping experience, allowing the user to browse products without any distractions.
 
-The interface uses a clear and consistent layout, ensuring that the users can easily nevagiate between the login page, the main menu, and the respective category pages quickly and efficiently. The navigation bar is clear and tells the user exactly what they need to know, so that they can get on with purchasing their desired product quickly. 
+The interface uses a clear and consistent layout, ensuring that users can easily navigate between the homepage, category pages, unique product pages, basket page, checkout page, and profile page. The navigation bar is clear and tells the user exactly what they need to know, so that they can get on with purchasing their desired product quickly.
 
 Validation is also a key feature of this application, with forms throughout the store, ensisting customers adhere to the rules of the validation. For example, when creating an account with TechForge, customers must use a real email address so that we can verify the user, otherwise an error message will appear, asking the user to provide a valid email. 
 
