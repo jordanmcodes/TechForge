@@ -421,3 +421,27 @@ The database schema for TechForge comprises of several relationships that helps 
 * Each review belongs to one product 
 
 ## Features 
+
+### User Registration 
+
+### User Login
+
+### User Logout 
+
+### Product Categories
+
+### Product Browsing 
+
+### Product Details 
+
+### Shopping Basket
+
+### Basket Management
+
+### Secure Checkout 
+
+### Order History 
+
+### Product Reviews 
+
+### User Profiles
