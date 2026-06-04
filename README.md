@@ -403,5 +403,5 @@ When a user completes an order, that information is stored in the order model. T
 ### Order Item Model
 The order item model is the bright between the order, and the product models themselves. This model stores information such as which products are part of the model. For example, one order contains an Xbox One X, a new controller, and a Razer headset. Other information included is the quantity of each item purchases, and the cost of that specific product. The relationship highlighted is one order can have multiple products. 
 ### Review Model
-
+The review model allows users to leave ratings from a previous order. The review includes a rating, and an optional comment on the product, or several products. These reviews are valuable to browsing customers. If an item, such as an Xbox One X, has multiple 5 star ratings, the browsing user is more inclined to pick this product up. Each review is linked to both the user, and a product. One user can create many reviews, and one product can have mutliple reviews. 
 ### Database Relationships
