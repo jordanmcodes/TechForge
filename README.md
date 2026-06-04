@@ -306,6 +306,9 @@ Below is an image for the following wireframes:
 ## Database Schema
 
 ### Entity Relationship Diagram
+The ERD below reflects how the application will function and the journey that the user will go on. The diagram showcases that users can create an account, browse the various products and their respective category pages, add those products to their basket, complete a secure checkout, and leave a review of the various products they purchased. 
+
+![Entity Relationship Diagram](assets/techforge_erd.jpg)
 
 ### Category Model
 
