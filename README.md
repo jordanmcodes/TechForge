@@ -393,7 +393,7 @@ The ERD below reflects how the application will function and the journey that th
 ![Entity Relationship Diagram](assets/techforge_erd.jpg)
 
 ### Category Model
-
+The category model separates the different products into their respective categories. For example, a Dell Laptop will only be in the Laptop category, it won't appear anywhere else. This helps streamline navigation as users can quickly locate the products they wish to purchase. 
 ### Product Model
 
 ### Profile Model
