@@ -405,3 +405,16 @@ The order item model is the bright between the order, and the product models the
 ### Review Model
 The review model allows users to leave ratings from a previous order. The review includes a rating, and an optional comment on the product, or several products. These reviews are valuable to browsing customers. If an item, such as an Xbox One X, has multiple 5 star ratings, the browsing user is more inclined to pick this product up. Each review is linked to both the user, and a product. One user can create many reviews, and one product can have mutliple reviews. 
 ### Database Relationships
+The database schema for TechForge comprises of several relationships that helps support the efficiency and functionality of the application. Below are the relationships for TechForge:
+* One category can contain many products
+* Each product belongs to one specific category
+* One user has only one profile
+* One user can create many orders
+* Each order belongs to one specific user
+* One order can contain many items
+* Each order item belongs to one order
+* One product can appear in many order items
+* Once user can create many revies
+* Each review belongs to one user
+* One product can have many reviews
+* Each review belongs to one product 
