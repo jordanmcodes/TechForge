@@ -317,6 +317,12 @@ Acceptance Criteria:
 * User's mode preference is saved for future visits to TechForge.
 * All text, buttons, and nav bar remains readable in both modes.
 ### Won't Have
+* Live text support
+* Product comparison tool
+* Ai-powered product recommendations
+* Subscription services
+* International shipping support
+* Crypto payment options 
 
 ## User Experience (UX)
 ### User Journey
