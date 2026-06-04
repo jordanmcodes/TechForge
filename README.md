@@ -292,7 +292,30 @@ Acceptance Criteria:
 * Users can only view orders linked to their account. 
 
 ### Could Have
+#### Wishlist 
+As a: User
 
+I want to: Save products for future purchase
+
+So that: Time can be saved browsing for the same items.
+
+Acceptance Criteria:
+* Items appear on the save for later page 
+* Users can press the love heart symbol to save a product for later.
+* Wishlist is exclusive to each users personal profile. 
+
+#### Dark Mode 
+As a: User
+
+I want to: Switch the colour scheme from light mode to dark mode.
+
+So that: I can view TechForge is different lighting environments.
+
+Acceptance Criteria:
+* Users can switch between the two modes via a button. 
+* Selected mode is applied on every TechForge page.
+* User's mode preference is saved for future visits to TechForge.
+* All text, buttons, and nav bar remains readable in both modes.
 ### Won't Have
 
 ## User Experience (UX)
