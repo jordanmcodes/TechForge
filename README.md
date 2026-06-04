@@ -395,7 +395,7 @@ The ERD below reflects how the application will function and the journey that th
 ### Category Model
 The category model separates the different products into their respective categories. For example, a Dell Laptop will only be in the Laptop category, it won't appear anywhere else. This helps streamline navigation as users can quickly locate the products they wish to purchase. 
 ### Product Model
-
+The product model is where all the information regarding the products available to purchase in the store is placed. Product name, price, description, image, and stock available makes up one product in the store. 
 ### Profile Model
 
 ### Order Model
