@@ -330,13 +330,14 @@ Acceptance Criteria:
 Below details the user journey for both a first time visitor, and a returning visitor and how they will both interact with the application. 
 
 #### First Time User
-1. Visits the login page
-2. Creates an account 
-3. Logs into the system 
-4. Gains access to the TechForge store
-5. Browses product details and prices
-6. Adds chosen products to their basket
-7. Proceeds to checkout to complete purchase
+1. Visits the homepage
+2. Browses various products and respective categories
+3. Creates an account via the login page
+4. Logs into the application
+5. Gains access to the TechForge store
+6. Browses product details and prices
+7. Adds chosen products to their basket
+8. Proceeds to checkout to complete purchase
 
 #### Returning User
 1. Logs into their TechForge account
