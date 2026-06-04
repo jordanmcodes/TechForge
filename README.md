@@ -401,7 +401,7 @@ The profile model is an extension of Django's built-in model to help store perso
 ### Order Model
 When a user completes an order, that information is stored in the order model. The information includes which customer placed the order, the date in which the order took place, the total basket price of the order, and the status of the order, for example, out for delivery. Additionally, the order model allows users to view their order history, enabling TechForge to maintain a record of all completed orders through the checkout system. One user can have many orders, highlighting the one-to-many relationship.
 ### Order Item Model
-
+The order item model is the bright between the order, and the product models themselves. This model stores information such as which products are part of the model. For example, one order contains an Xbox One X, a new controller, and a Razer headset. Other information included is the quantity of each item purchases, and the cost of that specific product. The relationship highlighted is one order can have multiple products. 
 ### Review Model
 
 ### Database Relationships
