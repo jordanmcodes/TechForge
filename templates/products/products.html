@@ -13,11 +13,11 @@
 {% block content %}
      <div class=" container">
         <div class="row">
-            <div class="col">
-                {% for product in products %}
+        {% for product in products %}
+        <div class="col-12 col-sm-6 col-lg-4 col-xl-3">
                 <p>{{product.name}}</p>
-                {% endfor %}
             </div>
+            {% endfor %}
         </div>  
      </div>
 
