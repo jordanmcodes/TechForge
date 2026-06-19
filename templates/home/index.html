@@ -24,7 +24,12 @@
     <div class="row mt-4">
         <div class="col-md-6">
              {% for product in desktop_products %}
-             <h4> {{ product.name}}</h4>
+            <div class ="border p-3 text-center">
+                <h4>{{product.name}}</h4>
+                {% if product.image %}
+                <img src = "{{ product.image.url }}" alt ="{{product.name}}">
+                {% endif %}
+            </div>
              {% endfor %}
         </div>
         <div class="col-md-6">
