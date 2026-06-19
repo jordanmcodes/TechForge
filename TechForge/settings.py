@@ -13,7 +13,7 @@ import os
 import dj_database_url
 from pathlib import Path
 
-if os.path.exits('env.py'):
+if os.path.exists('env.py'):
                  import env
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
