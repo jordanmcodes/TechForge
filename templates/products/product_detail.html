@@ -25,6 +25,23 @@
                     <p>{{product.rating}}</p>
                 {% endif %}
                 <p>{{product.description}}</p>
+                <form method="POST" action="{% url 'add_to_basket' product.id %}">
+                    {% csrf_token %}
+                    <div>
+                        <label for="id_qty"> Quantity</label>
+                        <input
+                        type="number"
+                        name="quantity"
+                        value="1"
+                        min="1"
+                        id="id_qty">
+                    </div>
+                    <button type="submit">Add To Basket</button> 
+                    <input
+                    type="hidden"
+                    name="redirect_url"
+                    value="{{request.path}}">
+                </form>
         </div>
         </div>
      </div>
