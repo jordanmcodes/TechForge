@@ -27,7 +27,7 @@
             <div class ="border p-3 text-center">
                 <h4>{{product.name}}</h4>
                 {% if product.image %}
-                <img src = "{{ product.image.url }}" alt ="{{product.name}}">
+                <img src = "{{ product.image.url }}" alt ="{{product.name}}" class="img-fluid">
                 {% endif %}
             </div>
              {% endfor %}
