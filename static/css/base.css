@@ -36,3 +36,13 @@ background-color: #F2E6D8;
 .image-block{
 background-color: #3b3b3b;
 }
+
+.logo{
+    color: #3b3b3b;
+    text-decoration: none;
+}
+
+.logo:hover{
+    color:#3b3b3b ;
+    text-decoration: none;
+}

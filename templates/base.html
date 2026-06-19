@@ -37,17 +37,18 @@
 
 <body>
   <header class="container">
-    <div class="row">
-      <div class="col-md-6">
-
-        <a href="{% url 'home' %}">
-          <h2>
-            TechForge
-          </h2>
-        </a>
-      </div>
-      <div class="col-md-6 text-right">
+      <div class="row">
+          <div class="col-12 text-right">
          Account | <a href = "{% url 'basket' %}"> Basket </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="{% url 'home' %}" class="logo">
+          <h1>
+            TechForge
+          </h1>
+        </a>
       </div>
     </div>
 
