@@ -23,14 +23,13 @@
     </div>
     <div class="row mt-4">
         <div class="col-md-6">
-             {% for product in desktop_products %}
-            <div class ="border p-3 text-center">
-                <h4>{{product.name}}</h4>
-                {% if product.image %}
-                <img src = "{{ product.image.url }}" alt ="{{product.name}}" class="img-fluid">
-                {% endif %}
+            <div class ="border p-5 text-center">
+
+                <img src="{% static 'images/raptor.png'%}"
+                alt="Dekstop PC"
+                class="img-fluid">
+                
             </div>
-             {% endfor %}
         </div>
         <div class="col-md-6">
             <div class="border p-5 text-center">
