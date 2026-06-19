@@ -1,18 +1,49 @@
 {% extends "base.html" %}
 {% load static %}
-    {% block page_header %}
-    <div class= "container header-container">
-        <div class="row">
-            <div class="col">
-            </div>
-        </div>
-    </div>
-    {% endblock %}
+   
 
-    {% block content %}
-    <div class="container">
-        <div class = "row">
-            <h2> Your Shopping Basket</h2>
-        </div>
-    </div>
+{% block content %}
+
+<div class="row">
+    <div class="col">
+{% if basket_items %}
+<div class="table-responsive rounded">
+    <table class="table table-sm table-borderless">
+    <thead class="text-black">
+        <tr>
+            <th scope="col">Product Info</th>
+            <th scope="col"></th>
+            <th scope="col">Price</th>
+            <th scope="col">Qty</th>
+            <th scope="col"> Subtotal</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for item in basket_items %}
+    <tr>
+    <td class="p-3 w-25">
+        <img class="img-fluid rounded" src="{{item.product.image.url}}">
+    </td>
+    <td class="py-3">
+        <p class="my-0"><strong>{{item.product.name}}</strong></p>
+        <p class="my-0 small text-muted">SKU: {{item.product.sku|upper}}</p>
+    </td>
+    <td class="py-3">
+        <p class="my-0">£{{item.product.price}}</p>
+    </td>
+    <td class="py-3">
+        <p class="my-0">{{item.quantity}}</p>
+    </td>
+    <td class="my-0">£{{item.product.price}}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+    </table>
+</div>
+
+{% else %}
+<p>Your Shopping Basket is Empty</p>
+{% endif %}
+</div>
+</div>
 {% endblock %}
