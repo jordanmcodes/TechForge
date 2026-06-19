@@ -13,6 +13,9 @@ import os
 import dj_database_url
 from pathlib import Path
 
+if os.path.exits('env.py'):
+                 import env
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -24,9 +27,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-)t-mr!+a!_@u$t44!iw%aj1yu@qqao!#e1ttp1u@t4wh1ec#o#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["techforge-877818eefd36.herokuapp.com"]
 
 
 # Application definition
@@ -113,16 +116,17 @@ WSGI_APPLICATION = 'techforge.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-#DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.sqlite3',
-#        'NAME': BASE_DIR / 'db.sqlite3',
-#    }
-#}
-
-DATABASES = {
-     'default': dj_database_url.parse('postgresql://neondb_owner:npg_ScLwMrN2jZ3v@ep-young-lake-asy3811k.c-4.eu-central-1.aws.neon.tech/many_guide_dust_313524')
- }
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+else: 
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+    }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
