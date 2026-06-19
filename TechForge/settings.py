@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'products',
     'profiles',
     'checkout',
+    'crispy_forms'
 ]
 
 MIDDLEWARE = [
@@ -66,12 +67,16 @@ TEMPLATES = [
         'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
+            'builtins': [
+                'crispy_forms.templatetags.crispy_forms_tags',
+                'crispy_forms.templatetags.crispy_forms_field',
+            ],
             'context_processors': [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request', # required by allauth
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'basket.contexts.basket_contents'
+                'basket.contexts.basket_contents',
             ],
         },
     },
@@ -164,3 +169,5 @@ MEDIA_ROOT = BASE_DIR / 'media'
 FREE_DELIVERY_THRESHOLD = 100
 STANDARD_DELIVERY_PERCENTAGE = 10
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
