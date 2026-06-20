@@ -65,7 +65,7 @@ MIDDLEWARE = [
     
 ]
 
-ROOT_URLCONF = 'TechForge.urls'
+ROOT_URLCONF = 'techforge.urls'
 
 TEMPLATES = [
     {
@@ -112,7 +112,7 @@ LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 
 
-WSGI_APPLICATION = 'TechForge.wsgi.application'
+WSGI_APPLICATION = 'techforge.wsgi.application'
 
 
 # Database
