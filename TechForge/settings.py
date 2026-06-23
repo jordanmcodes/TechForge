@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = ["techforge-877818eefd36.herokuapp.com",
-                 "'127.0.0.1'",
+                 "127.0.0.1",
                  "localhost",]
 
 
