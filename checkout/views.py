@@ -10,11 +10,20 @@ def checkout(request):
     if not basket:
         messages.error(request, "There are no products in your basket")
         return redirect(reverse('products'))
+    current_basket = basket_contents(request)
+    total = current_basket['grand_total']
+    stripe_total = round(total * 100)
+    stripe.api_key = settings.STRIPE_SECRET_KEY
+    intent = stripe.PaymentIntent.create(
+        amount=stripe_total, currency=settings.STRIPE_CURRENCY,
+    )
     
     order_form = OrderForm()
     template = 'checkout/checkout.html'
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
-    client_secret = 'test client secret'
+    if not stripe_public_key:
+        messages.warning( request,'Stripe public key missing, did you forget to set it in your environment?')
+    client_secret = intent.client_secret
     context = {
         'order_form': order_form,
         'stripe_public_key':stripe_public_key,
