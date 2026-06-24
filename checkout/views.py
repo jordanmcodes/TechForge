@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect, reverse
 from django.contrib import messages
 from .forms import OrderForm
 from django.conf import settings
+from basket.contexts import basket_contents
 import stripe
 
 def checkout(request):
