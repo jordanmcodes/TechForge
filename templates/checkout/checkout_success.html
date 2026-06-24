@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<h2>Thank you for shopping with TechForge!</h2>
+<p>Your order has been successfully placed</p>
+<hr>
+<p><strong>Order Number:</strong>{{order.order_number}}</p>
+<p><strong>Name:</strong>{{order.full_name}}</p>
+<p><strong>Email:</strong>{{order.email}}</p>
+{% endblock %}
