@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
+    'cloudinary_storage',
+    'cloudinary',
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
@@ -67,7 +69,7 @@ MIDDLEWARE = [
     
 ]
 
-ROOT_URLCONF = 'TechForge.urls'
+ROOT_URLCONF = 'techforge.urls'
 
 TEMPLATES = [
     {
@@ -114,7 +116,7 @@ LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 
 
-WSGI_APPLICATION = 'TechForge.wsgi.application'
+WSGI_APPLICATION = 'techforge.wsgi.application'
 
 
 
@@ -173,10 +175,12 @@ STATICFILES_DIRS =[
     BASE_DIR /'static',   
 ]
 STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-MEDIA_URL = '/media/'
-MEDIA_ROOT = BASE_DIR / 'media'
-
+CLOUDINARY_STORAGE = {
+        'CLOUDINARY_URL':  os.environ.get('CLOUDINARY_URL')
+}
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
