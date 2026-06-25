@@ -1,1 +1,1 @@
-web: gunicorn techforge.wsgi:application
+web: gunicorn TechForge.wsgi:application
