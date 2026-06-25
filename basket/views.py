@@ -37,11 +37,9 @@ def adjust_basket(request, item_id):
         return redirect(reverse('basket'))
 
 def remove_from_basket(request, item_id):
-       """Removes items from the basket"""
-       try: 
-              basket=request.session.get('basket', {})
-              basket.pop(item_id)
-              request.session['basket'] = basket
-              return HttpResponse(status=200)
-       except Exception as e:
-              return HttpResponse(status=500)
+    """Removes items from the basket"""
+    basket=request.session.get('basket', {})
+    if item_id in basket:
+           basket.pop(item_id)
+    request.session['basket'] = basket
+    return redirect('basket')
