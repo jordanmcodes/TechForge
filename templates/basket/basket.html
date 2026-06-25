@@ -75,7 +75,7 @@
         <small>Remove</small>
     </a>
     </td>
-    <td class="my-0">£{{item.product.price}}</td>
+    <td class="my-0">£{{item.product.price|mul:item.quantity}}</td>
     </tr>
     {% endfor %}
     </tbody>
