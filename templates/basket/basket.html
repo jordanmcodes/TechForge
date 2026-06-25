@@ -31,8 +31,49 @@
     <td class="py-3">
         <p class="my-0">£{{item.product.price}}</p>
     </td>
-    <td class="py-3">
-        <p class="my-0">{{item.quantity}}</p>
+    <td class="py-3 w-25">
+        <form class="form update-form" method="POST" action="{% url 'adjust_basket' item.item_id %}">
+            {% csrf_token %}
+            <div class="form-group">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <button class="decrement-qty btn btn-sm btn-black rounded-0"
+                        data-item_id="{{item.item_id}}" 
+                        id="decrement-qty_{{item.item_id}}">
+                        <span>
+                            <i class="fas fa-minus fa-sm"></i>
+                        </span>
+                    </button>
+                </div>
+                <input class="form-control form-control-sm qty_input"
+                name="quantity"
+                type="number"
+                value="{{item.quantity}}"
+                max="99"
+                min="1"
+                data-item_id="{{item.item_id}}"
+                id="id_qty_{{item.item_id}}">
+
+                <input type="hidden" name="item_id" value="{{item.item_id}}">
+
+                <div class="input-group-append">
+                    <button class="increment-qty btn btn-sm btn-black rounded-0"
+                    data-item_id="{{item.item_id}}"
+                    id="increment-qty_{{item.item_id}}">
+                    <span>
+                        <i class="fas fa-plus fa-sm"></i>
+                    </span>
+                </button>
+                </div>
+            </div>
+            </div>
+            <button type="submit" class="btn btn-sm btn-primary">Update</button>
+        </form>
+       
+        <a class="remove-item text-danger float-right"
+        id="remove_{{item.item_id}}">
+        <small>Remove</small>
+    </a>
     </td>
     <td class="my-0">£{{item.product.price}}</td>
     </tr>
