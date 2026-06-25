@@ -8,4 +8,20 @@
 <p><strong>Order Number:</strong>{{order.order_number}}</p>
 <p><strong>Name:</strong>{{order.full_name}}</p>
 <p><strong>Email:</strong>{{order.email}}</p>
+<p><strong>Address:</strong>{{order.street_address1}}</p>
+<p><strong>Town/City:</strong>{{order.town_or_city}}</p>
+<p><strong>Postcode:</strong>{{order.postcode}}</p>
+
+<hr>
+<h3>Your Order Summary</h3>
+{% for item in order.lineitems.all %}
+<p>{{item.product.name}} * {{item.quantity}}</p>
+{% endfor %}
+
+<hr>
+<p><strong>Order Total:</strong>£{{order.order_total}}</p>
+<p><strong>Delivery:</strong>£{{order.delivery_cost}}</p>
+<p><strong>Grand Total:</strong>{{order.grand_total}}</p>
+
+
 {% endblock %}
