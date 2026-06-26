@@ -1,4 +1,5 @@
 #TechForge Testing 
+
 This testing document outlines the manual testing done for the TechForge project. 
 
 This file was created for the sole purpose of verifying the validity of my application, ensuring everything works as planned. For example:
@@ -15,6 +16,7 @@ This file was created for the sole purpose of verifying the validity of my appli
 Below is the testing that follows the user journey. Starting with the home page, where users have the option of creating their own account for the TechForge website. 
 
 ##Testing Environment 
+
 Testing for TechForge was carried out on the following platforms and devices:
 #### Devices
 The device I designed, developed, and deployed on was my Windows Desktop PC
