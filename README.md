@@ -502,5 +502,39 @@ Testing was carried out during the entire development stage of TechForge to ensu
 **[View the testing document here](TESTING.md)**
 
 ## Deployment 
+### GitHub Repository
+To create TechForge, I developed the application using Visual Studio Code. This was version controlled using Git and GitHub. 
 
+Here is how you can create a copy of my repository: 
+
+1. Access the TechForge GitHub repository `https://github.com/jordanmcodes/TechForge`
+2. Click the code button in the top right
+3. Copy the HTTPS repository url
+4. Open Visual Studio Code, or your preferred terminal, and run:
+5. `git clone https://github.com/jordanmcodes/TechForge.git 
+
+### Heroku 
+1. Log into Heroku
+2. Create a new application
+3. Choose a name, in my instance, TechForge, and region - Europe
+4. Navigate to the deploy tab
+5. Connect Heroku to the GitHub repository
+6. Select the main branch
+7. Ensure the required Config Vars have been added within the settings
+8. Confirm `requirements.txt` and `Procfile` are present in the folder
+9. Click deploy branch
+10. Open the deployed application via open app
+
+### Environmental variables
+These were the config vars that were used during the deployment to Heroku:
+- `SECRET_KEY`
+- `DATABASE_URL`
+- `CLOUDINARY_URL`
+- `STRIPE_PUBLIC_KEY`
+- `STRIPE_SECRET_KEY`
+- `STRIPE_WH_SECRET`
+- `EMAIL_HOST`
+- `EMAIL_HOST_USER`
+- `EMAIL_HOST_PASSWORD`
+- `DEFAULT_FROM_EMAIL`
 ## Acknowledgements 
