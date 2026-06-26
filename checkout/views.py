@@ -6,7 +6,9 @@ from basket.contexts import basket_contents
 import stripe
 from .models import Order, OrderLineItem
 from products.models import Product
+from django.contrib.auth.decorators import login_required
 
+@login_required
 def checkout(request):
    
     basket = request.session.get('basket', {})
