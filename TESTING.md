@@ -28,4 +28,22 @@ The device I designed, developed, and deployed on was my Windows Desktop PC
 * iPad Pro (1020x1366) (Chrome Dev Tools)
 * iPhone (430x932) (Chrome Dev Tools)
 
+## Functionality Testing 
+| Test Number | Expected Result | Actual Result | Pass/Fail | 
+|-------------|-----------------|---------------|-----------|
+| Home Page Loads | Home Page loads successfully | The page loaded successfully | Pass | 
+| Register Account | Users registered an account, additionally, verified their account via email | Successfully created an account, and verified it via email | Pass | 
+| Login | Registered users can login | Users successfully logged into their account | Pass | 
+| Logout | Registered users can successfully logout | Users were able to successfully logout of their account | Pass | 
+| Browse products | Users can view all product pages, with products displayed correctly | All products were visible on their respective pages | Pass | 
+| View product details | Users can see product details when they click on a product | Product detail pages loaded, showcasing price, category, rating, and image | Pass | 
+| Add product to basket | Users can add a product to basket | Users successfully added products to their basket | Pass | 
+| Update basket | Users can adjust the quantity of items | Basket was adjusted based on the quantity of the items selected | Pass | 
+| Remove item from basket | Items can be successfully removed | Users were able to remove items from the basket | Pass | 
+| Checkout | The checkout form accepts valid information, not allowing users to proceed without it | Users could successfully check out | Pass |
+| Stripe payment system | Test payment process succesfully |  Payment completed successfully | Pass | 
+| Order confirmation | Order confirmation page displayed | Users could see their order comfirmation | Pass | 
+| 
+
+
 
