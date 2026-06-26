@@ -62,7 +62,8 @@ background-color: #3b3b3b;
     background-color: #3b3b3b;
     padding: 25px;
     border-radius: 15px;
-    width:400px;
+    width:100%;
+    max-width: 400px;
     color: white;
 
 }
