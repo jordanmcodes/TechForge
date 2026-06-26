@@ -1,4 +1,4 @@
-#TechForge Testing 
+# TechForge Testing 
 
 This testing document outlines the manual testing done for the TechForge project. 
 
@@ -9,13 +9,13 @@ This file was created for the sole purpose of verifying the validity of my appli
 * Add products to a shopping basket.
 * Remove items from their basket.
 * Navigate to various pages.
-* Add more of the same items while in the basket page.
-* Successfully checkout, with a working form, and stripe model to guarantee safe payment.
-* Order confirmation page, with a unique number, including the users details they just typed on the basket page.
+* Add more of the same items while on the basket page.
+* Successfully check out, with a working form, and Stripe model to guarantee safe payment.
+* Order confirmation page, with a unique number, including the user's details they just typed on the basket page.
 
 Below is the testing that follows the user journey. Starting with the home page, where users have the option of creating their own account for the TechForge website. 
 
-##Testing Environment 
+## Testing Environment 
 
 Testing for TechForge was carried out on the following platforms and devices:
 #### Devices
