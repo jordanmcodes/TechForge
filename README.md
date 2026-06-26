@@ -424,37 +424,78 @@ The database schema for TechForge comprises of several relationships that helps 
 ## Features 
 
 ### User Registration 
+Users can create a TechForge account via the login section of the website. As they won't have made an account yet, they can press " Sign up " in the above sentence. Fill in the correct information, using a real email, and they will be signed up! For security, accounts will be sent a verification email. 
 
 ### User Login
+Users who are returning to the website can use the account details they previously created to log back in to TechForge. Shopping basket, checkout process, and their information are stored on these logins.
 
 ### User Logout 
-
+Users can easily log out of the TechForge application via the logout page. This will sign them out, and will require logging in again to access their personal account. 
 ### Product Categories
-
+All products are assigned their own category. Each category has its own respective page. Additionally, each product has its own product details page. 
 ### Product Browsing 
-
+Users can browse all available products within each category. These categories can be accessed via the navigation bar at the top of the page. 
 ### Product Details 
-
+Individual product pages display the information of the product. Including price, category, rating, and their own image. 
 ### Shopping Basket
-
+Users can add products to their basket while browsing the different category pages. The basket total updates when they add an item to it.
 ### Basket Management
-
+Users can remove, update, and add items to their basket. Additionally, updating the quantity of the products. 
 ### Secure Checkout 
-
-### Order History 
-
-### Product Reviews 
-
-### User Profiles
+Checkout is achieved using Stripe's payment system. Validation ensures all required fields are completed before the order can be submitted.
 
 ## Technologies Used 
 ### Languages
+The following programming languages were used throughout the design, development, and deployment of TechForge:
+* Python
+* HTML
+* CSS
+* JavaScript
 ### Frameworks 
+The following frameworks were used during the development of TechForge:
+* Django
+* Bootstrap
 ### Libraries 
+The following libraries and packages were used within the TechForge project:
+* Cloudinary
+* Django Allauth
+* Stripe
+* Crispy Forms
+* WhiteNoise
+* Gunicorn
+* psycopg2
+* dj-database-url
 ### Databases
+The two databases that were used:
+* SQLite3 - Development
+* PostgreSQL - Production
 ### Tools and Programs
-
+Various tools and softwares were used throughout the design, development, testing, and deployment of TechForge: 
+* Git
+* GitHub
+* Heroku
+* Figma
+* Lucidchart
+* Google Chrome
+* Mozilla Firefox
+* Chrome DevTools
+* W3C HTML Validator
+* W3C CSS Validation
+* Code Institute Python Linter
+* Google Lighthouse
 ## Testing
+Testing was carried out during the entire development stage of TechForge to ensure the application functioned effectively and met the project criteria. The testing process included:
+ * Functionality Testing
+ * Usability Testing
+ * Responsiveness Testing
+ * Data Management Testing
+ * HTML Validation
+ * CSS Validation
+ * Python Validation
+ * Google Lighthouse Testing
+
+**[View the testing document here](TESTING.MD)**
+Below is a detailed testing document, laying out the various results and supporting images:
 
 ## Deployment 
 
