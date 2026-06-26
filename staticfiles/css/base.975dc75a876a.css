@@ -54,7 +54,7 @@ background-color: #3b3b3b;
 .auth-container{
     display:flex;
     justify-content: center;
-    width: 400px;
+    padding:0 15px ;
     margin-top: 50px;
 }
 
@@ -62,7 +62,8 @@ background-color: #3b3b3b;
     background-color: #3b3b3b;
     padding: 25px;
     border-radius: 15px;
-    width:400px;
+    width:100%;
+    max-width: 400px;
     color: white;
 
 }
