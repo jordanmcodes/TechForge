@@ -14,7 +14,7 @@ import dj_database_url
 from pathlib import Path
 
 if os.path.exists('env.py'):
-                 import env
+    import env
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -31,7 +31,8 @@ DEBUG = False
 
 ALLOWED_HOSTS = ["techforge-877818eefd36.herokuapp.com",
                  "127.0.0.1",
-                 "localhost",]
+                 "localhost",
+                 ]
 
 
 # Application definition
@@ -66,7 +67,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    
 ]
 
 ROOT_URLCONF = 'TechForge.urls'
@@ -83,7 +83,8 @@ TEMPLATES = [
             ],
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request', # required by allauth
+                'django.template.context_processors.request',
+                # required by allauth
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'basket.contexts.basket_contents',
@@ -94,13 +95,10 @@ TEMPLATES = [
 ]
 
 AUTHENTICATION_BACKENDS = [
-    
     # Needed to login by username in Django admin, regardless of `allauth`
     'django.contrib.auth.backends.ModelBackend',
-
     # `allauth` specific authentication methods, such as login by email
     'allauth.account.auth_backends.AuthenticationBackend',
-    
 ]
 
 SITE_ID = 1
@@ -125,15 +123,12 @@ LOGIN_REDIRECT_URL = '/'
 
 WSGI_APPLICATION = 'TechForge.wsgi.application'
 
-
-
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
-
 if 'DATABASE_URL' in os.environ:
     DATABASES = {
         'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
-else: 
+else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
@@ -178,14 +173,14 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS =[
-    BASE_DIR /'static',   
+STATICFILES_DIRS = [
+    BASE_DIR / 'static',
 ]
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 CLOUDINARY_STORAGE = {
-        'CLOUDINARY_URL':  os.environ.get('CLOUDINARY_URL')
+    'CLOUDINARY_URL':  os.environ.get('CLOUDINARY_URL')
 }
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 # Default primary key field type
