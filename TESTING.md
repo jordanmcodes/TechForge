@@ -53,6 +53,15 @@ The device I designed, developed, and deployed on was my Windows Desktop PC
 | Buttons and hyperlinks | Buttons and links are clearly labelled and work correctly | All buttons on application worked | Pass | 
 | Interface | Layout is clear and easy to follow | Interface remained consistent throughout the application | Pass | 
 
+## Responsiveness Testing 
+| Test  | Expected Result | Actual Result | Pass/Fail | 
+|-------------|-----------------|---------------|-----------|
+| Desktop - Chrome (1920x1080) | Website displays correctly with all features working | All features of the website worked and displayed properly | Pass | 
+| Desktop - Mozilla Firefox (1920x1080) | Website displays correctly with all features working | All features of the website worked and displayed properly | Pass | 
+| iPad Pro (1024x1366) | Layout adjusts correctly for tablet screens | Layout adjusted correctly for tablet | Pass | 
+| iPhone (430x932) | Layout adjusts correctly for iPhone | Layout adjusted correctly for tablet | Pass | 
+
+
 
 
 
