@@ -494,7 +494,7 @@ Testing was carried out during the entire development stage of TechForge to ensu
  * Python Validation
  * Google Lighthouse Testing
 
-**[View the testing document here](TESTING.MD)**
+**[View the testing document here](TESTING.md)**
 
 ## Deployment 
 
