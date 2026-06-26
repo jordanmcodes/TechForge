@@ -72,6 +72,21 @@ The device I designed, developed, and deployed on was my Windows Desktop PC
 | Order creation | Successful checkout will create a new order in the database | Order created succesfully | Pass | 
 | Order details | Order stores customer and payment info correctly | Order information succesfully stored | Pass | 
 
+## Validation
 
+TechForge was validated using a variety of industry-standard validators. The following tools were used:
+* HTML Validation - W3C Validator
+* CSS Validation - W3C CSS Validator
+* JavaScript Validation - Not Applicable
+* Python Validation - Code Institute Python Linter
+* Lighthouse Testing 
 
+### Lighthouse 
+Google Lighthouse was used to assess the quality of TechForge, below are the results:
+| Category | Score | 
+|----------|-------|
+| Performance | 73 | 
+| Accessibility | 90 |
+| Best Practises | 77 |
+| SEO 90 | 
 
