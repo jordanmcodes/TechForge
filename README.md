@@ -9,6 +9,11 @@
 - [Design and Planning](#design-and-planning)
 - [Database Schema](#database-schema)
 - [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Acknowledgements](#acknowledgements)
+- [Bugs](#bugs)
 
 ## Introduction to TechForge
 TechForge is a web-based e-commerce application. This app was developed using Django framework which allows users to login to the app, browse their desired tech products, all through a simple and user-friendly browsing menu. 
