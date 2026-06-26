@@ -54,17 +54,16 @@ background-color: #3b3b3b;
 .auth-container{
     display:flex;
     justify-content: center;
-    border-radius: 10px;
-    width: 400px;
     margin-top: 50px;
-    margin-left: 720px;
+    padding: 0 15px;
 }
 
 .auth-box{
     background-color: #3b3b3b;
     padding: 25px;
     border-radius: 15px;
-    width:400px;
+    width:100%;
+    max-width: 400px;
     color: white;
 
 }
