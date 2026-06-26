@@ -495,7 +495,6 @@ Testing was carried out during the entire development stage of TechForge to ensu
  * Google Lighthouse Testing
 
 **[View the testing document here](TESTING.MD)**
-Below is a detailed testing document, laying out the various results and supporting images:
 
 ## Deployment 
 
