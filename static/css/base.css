@@ -73,3 +73,20 @@ background-color: #3b3b3b;
     text-align: center;
     margin-bottom: 20px;
 }
+
+#card-element{
+    background-color: #3b3b3b;
+    border: 2px solid #F2E6D8;
+    border-radius: 3px;
+    padding: 10px;
+    min-height:40px;
+}
+
+#card-element.StripeElement--focus {
+    border-color: #F2E6D8;
+    box-shadow: 0 0 0 3px #3b3b3b;
+}
+
+#card-element.StripeElement--invalid{
+    border-color: #dc3545;
+}
