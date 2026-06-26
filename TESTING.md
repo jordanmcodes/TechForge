@@ -61,7 +61,16 @@ The device I designed, developed, and deployed on was my Windows Desktop PC
 | iPad Pro (1024x1366) | Layout adjusts correctly for tablet screens | Layout adjusted correctly for tablet | Pass | 
 | iPhone (430x932) | Layout adjusts correctly for iPhone | Layout adjusted correctly for tablet | Pass | 
 
-
+## Data Management 
+| Test  | Expected Result | Actual Result | Pass/Fail | 
+|-------------|-----------------|---------------|-----------|
+| Registration | New user is saved to the database | User account successfully created | Pass | 
+| Product creation - Admin | New product created is saved to the database | Product successfully added | Pass | 
+| Product editing - Admin | Changes saved to the database | Product updated successfully | Pass | 
+| Product removed - Admin | Product removed from the database | Product deletion successfull | Pass | 
+| Basket updates | Basket updates when items are added and removed | Basket adjusts accordingly when items are added, edited, and removed | Pass |
+| Order creation | Successful checkout will create a new order in the database | Order created succesfully | Pass | 
+| Order details | Order stores customer and payment info correctly | Order information succesfully stored | Pass | 
 
 
 
