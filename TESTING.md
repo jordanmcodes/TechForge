@@ -29,7 +29,7 @@ The device I designed, developed, and deployed on was my Windows Desktop PC
 * iPhone (430x932) (Chrome Dev Tools)
 
 ## Functionality Testing 
-| Test Number | Expected Result | Actual Result | Pass/Fail | 
+| Test  | Expected Result | Actual Result | Pass/Fail | 
 |-------------|-----------------|---------------|-----------|
 | Home Page Loads | Home Page loads successfully | The page loaded successfully | Pass | 
 | Register Account | Users registered an account, additionally, verified their account via email | Successfully created an account, and verified it via email | Pass | 
@@ -43,7 +43,17 @@ The device I designed, developed, and deployed on was my Windows Desktop PC
 | Checkout | The checkout form accepts valid information, not allowing users to proceed without it | Users could successfully check out | Pass |
 | Stripe payment system | Test payment process succesfully |  Payment completed successfully | Pass | 
 | Order confirmation | Order confirmation page displayed | Users could see their order comfirmation | Pass | 
-| 
+
+## Usability Testing 
+| Test  | Expected Result | Actual Result | Pass/Fail | 
+|-------------|-----------------|---------------|-----------|
+| Navigation Menu | Users could access each page | Navigation to pages successful | Pass | 
+| Form validation | Error message prompts when incorrect information entered | An error message appeared with invalid phone number | Pass | 
+| Error messages displayed | Error messages displayed correctly, for example, invalid card number for Stripe | Users prompted to enter valid card number | Pass | 
+| Buttons and hyperlinks | Buttons and links are clearly labelled and work correctly | All buttons on application worked | Pass | 
+| Interface | Layout is clear and easy to follow | Interface remained consistent throughout the application | Pass | 
+
+
 
 
 
