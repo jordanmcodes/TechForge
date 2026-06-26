@@ -9,6 +9,10 @@
 - [Design and Planning](#design-and-planning)
 - [Database Schema](#database-schema)
 - [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Acknowledgements](#acknowledgements)
 
 ## Introduction to TechForge
 TechForge is a web-based e-commerce application. This app was developed using Django framework which allows users to login to the app, browse their desired tech products, all through a simple and user-friendly browsing menu. 
@@ -24,14 +28,10 @@ TechForge is designed to provide users with access to a digital shop for the mos
 
 ### User Experience
 
-When accessing the website, users will be greeted with the TechForge homepage, where they can browse the listed categories above via the navigation menu. TechForge provides a structured, yet easy to use shopping experience, allowing users to add items to their basket, edit how many of said item they wish to purchase, and remove items they no longer wish to buy. Once they are done, they proceed through to the checkout page. To make a purchase, users must create an account, the place to do so is with the login button at the top of the page.
+When accessing the website, users will be greeted with the TechForge homepage, where they can browse the listed categories above via the navigation menu. TechForge provides a structured, yet easy-to-use shopping experience, allowing users to add items to their basket, edit how many of said items they wish to purchase, and remove items they no longer wish to buy. Once they are done, they proceed to the checkout page. To make a purchase, users must create an account, the place to do so is with the login button at the top of the page.
 
 ### E-Commerce Functionality
-A key feature of TechForge is the e-commerce functionality. As users can add items to their basket, review the items and make adjustments before purchasing, and complete the transaction through an online payment system. With requiring users to log into their own account, their basket, order history, and details are linked to their individual accounts, ensuring data is secure and private.
-
-### User Profiles
-
-TechForge has personal profiles, in which users can view their pending orders, order history, and leave reviews. 
+A key feature of TechForge is the e-commerce functionality. Users can add items to their basket, review the items and make adjustments before purchasing, and complete the transaction through an online payment system. By requiring users to log into their own accounts, their baskets, order history, and details are linked to their individual accounts, ensuring data is secure and private.
 
 ### Full-Stack Development Features
 TechForge displays CRUD functionality, database design, user authentication, form validation, payment processing, and full-stack development concepts. This is to provide a modern online tech store, all from the comfort of the Django framework.
@@ -83,7 +83,6 @@ Acceptance Criteria:
 * Using valid information, such as email, users can log into their account.
 * If user enters incorrect information, an error message appears.
 * Users that are logged in can access TechForge.
-* Additionally, users that are logged in can access their personal profile.
 * Users are only logged out when they click the logout button.
 
 #### User Logout 
@@ -206,36 +205,7 @@ Acceptance Criteria:
 * Users receive confirmation that their order has been made successfully.
 * Unsucessful payments prompts an error message.
 
-#### View Order History 
 
-As a: User 
-
-I want to: view my order history.
-
-So that: I can keep track of my orders and their details.
-
-Acceptance Criteria:
-* Users can see a full historic record of their orders.
-* Users can view details of a specific order.
-* Users can only see orders from their account, not other people.
-* Order information includes the order id, the products, their quantities, prices, and the date of order. 
-* Users have access to their order history via their profile page. 
-
-#### Leave Product Reviews
-
-As a: User
-
-I want to: Leave reviews of the products I purchased.
-
-So that: I can give my input and express my thoughts on the products.
-
-Acceptance Criteria:
-* Logged in users can leave reviews.
-* Users can provide a rating and a review.
-* Reviews are displayed on the product page. 
-* Users can edit their own reviews at any time. 
-* Users can delete their reviews.
-* Users do not have access to editing or deleting reviews made by others. 
 
 ### Should Have
 #### Product Search
@@ -293,6 +263,36 @@ Acceptance Criteria:
 * Users can only view orders linked to their account. 
 
 ### Could Have
+#### View Order History 
+
+As a: User 
+
+I want to: view my order history.
+
+So that: I can keep track of my orders and their details.
+
+Acceptance Criteria:
+* Users can see a full historic record of their orders.
+* Users can view details of a specific order.
+* Users can only see orders from their account, not other people.
+* Order information includes the order id, the products, their quantities, prices, and the date of order. 
+* Users have access to their order history via their profile page. 
+
+#### Leave Product Reviews
+
+As a: User
+
+I want to: Leave reviews of the products I purchased.
+
+So that: I can give my input and express my thoughts on the products.
+
+Acceptance Criteria:
+* Logged in users can leave reviews.
+* Users can provide a rating and a review.
+* Reviews are displayed on the product page. 
+* Users can edit their own reviews at any time. 
+* Users can delete their reviews.
+* Users do not have access to editing or deleting reviews made by others. 
 #### Wishlist 
 As a: User
 
@@ -346,33 +346,31 @@ Below details the user journey for both a first time visitor, and a returning vi
 4. Adds chosen products to their basket
 5. If needed, updates basket to amend their order
 6. Completes checkout 
-7. Reviews order history via their profile 
-8. Leaves review on previous product purchases (optional)
 
 ### UX Goals
 With TechForge, the primary goal is to create a stress-free online shopping experience that allows users to browse and quickly purchase products without all of the extra distractions you often see on shopping sites. 
 
-TechForge focusses on: 
-* Simplicity: A clean and easy-to read design that is easy to navigate.
+TechForge focuses on: 
+* Simplicity: A clean and easy-to-read design that is easy to navigate.
 * Clarity: Products, menu buttons, images, and more are displayed clearly and are visibly organised. 
-* Effiency: Users can quickly find what they are looking for, proceed to checkout, and pay for their items in a matter of minutes. 
+* Efficiency: Users can quickly find what they are looking for, proceed to checkout, and pay for their items in a matter of minutes. 
 * Trust: Users are welcomed to a transparent experience, free of advertisements, promotional pop-ups, and continuous discount messages. 
 
-The aim of TechForge is to free the users of distractions, focussing solely on their task, which is browsing and potentially purchasing products.
+TechForge aims to free the users of distractions, focusing solely on their task, which is browsing and potentially purchasing products.
 ### Accessibility and Usability 
 
-Usability and simplicity was at the core when developing the TechForge application. This app focusses on a straightforward shopping experience, allowing the user to browse products without any distractions.
+Usability and simplicity were at the core when developing the TechForge application. This app focuses on a straightforward shopping experience, allowing the user to browse products without any distractions.
 
-The interface uses a clear and consistent layout, ensuring that users can easily navigate between the homepage, category pages, unique product pages, basket page, checkout page, and profile page. The navigation bar is clear and tells the user exactly what they need to know, so that they can get on with purchasing their desired product quickly.
+The interface uses a clear and consistent layout, ensuring that users can easily navigate between the homepage, category pages, unique product pages, basket page, and checkout page. The navigation bar is clear and tells the user exactly what they need to know, so that they can get on with purchasing their desired product quickly.
 
-Validation is also a key feature of this application, with forms throughout the store, ensisting customers adhere to the rules of the validation. For example, when creating an account with TechForge, customers must use a real email address so that we can verify the user, otherwise an error message will appear, asking the user to provide a valid email. 
+Validation is also a key feature of this application, with forms throughout the store, ensuring customers adhere to the rules of the validation. For example, when creating an account with TechForge, customers must use a real email address so that we can verify the user. If an error message appears, it will ask the user to provide a valid email. 
 
-Have you ever shopped on a lower tier application like Temu, that is riddled with advertisements, scams, and uneccessary information that distracts the user from their objective -- who wants to spin a wheel when they are trying to shop for trainers! 
+Have you ever shopped on a lower-tier application like Temu, which is riddled with advertisements, scams, and unnecessary information that distracts the user from their objective -- who wants to spin a wheel when they are trying to shop for trainers! 
 
 Lastly, user accounts are protected through authentication, and those accounts can only be accessed by them. The checkout system uses a secure payment system, ensuring their finances are handled with the best care. 
 
 ## Design and Planning 
-During the design and planning phase on the TechForge application, I created wireframes using Figma to give me the foundations and the vision of what the store will look like. The wireframes were used to map out the layout, clear navigation, and uncluttered pages. 
+During the design and planning phase of the TechForge application, I created wireframes using Figma to give me the foundations and the vision of what the store will look like. The wireframes were used to map out the layout, clear navigation, and uncluttered pages. 
 
 Below is an image for the following wireframes: 
 * Login Page
@@ -390,72 +388,146 @@ Below is an image for the following wireframes:
 ## Database Schema
 
 ### Entity Relationship Diagram
-The ERD below reflects how the application will function and the journey that the user will go on. The diagram showcases that users can create an account, browse the various products and their respective category pages, add those products to their basket, complete a secure checkout, and leave a review of the various products they purchased. 
+The ERD below reflects how the application will function and the journey that the user will go on. The diagram showcases that users can create an account, browse the various products and their respective category pages, add those products to their basket, and complete a secure checkout.
 
 ![Entity Relationship Diagram](assets/techforge_erd.jpg)
 
 ### Category Model
-The category model separates the different products into their respective categories. For example, a Dell Laptop will only be in the Laptop category, it won't appear anywhere else. This helps streamline navigation as users can quickly locate the products they wish to purchase. 
+The category model separates the different products into their respective categories. For example, a Dell Laptop will only be in the Laptop category; it won't appear anywhere else. This helps streamline navigation as users can quickly locate the products they wish to purchase. 
 ### Product Model
-The product model is where all the information regarding the products available to purchase in the store is placed. Product name, price, description, image, and stock available makes up one product in the store. 
-### Profile Model
-The profile model is an extension of Django's built-in model to help store personal information about the user such as phone number and address. Each user on TechForge has one profile, highlighting the one-to-one relationship between the user and profile models. 
+The product model is where all the information regarding the products available to purchase in the store is placed. Product name, price, description, image, and stock available make up one product in the store.  
 ### Order Model
 When a user completes an order, that information is stored in the order model. The information includes which customer placed the order, the date in which the order took place, the total basket price of the order, and the status of the order, for example, out for delivery. Additionally, the order model allows users to view their order history, enabling TechForge to maintain a record of all completed orders through the checkout system. One user can have many orders, highlighting the one-to-many relationship.
 ### Order Item Model
-The order item model is the bright between the order, and the product models themselves. This model stores information such as which products are part of the model. For example, one order contains an Xbox One X, a new controller, and a Razer headset. Other information included is the quantity of each item purchases, and the cost of that specific product. The relationship highlighted is one order can have multiple products. 
+The order item model is the bridge between the order and the product models themselves. This model stores information such as which products are part of the model. For example, one order contains an Xbox One X, a new controller, and a Razer headset. Other information included is the quantity of each item purchased and the cost of that specific product. The relationship highlighted is that one order can have multiple products. 
 ### Review Model
-The review model allows users to leave ratings from a previous order. The review includes a rating, and an optional comment on the product, or several products. These reviews are valuable to browsing customers. If an item, such as an Xbox One X, has multiple 5 star ratings, the browsing user is more inclined to pick this product up. Each review is linked to both the user, and a product. One user can create many reviews, and one product can have mutliple reviews. 
+The review model allows users to leave ratings for a previous order. The review includes a rating and an optional comment on the product, or several products. These reviews are valuable to browsing customers. If an item, such as an Xbox One X, has multiple 5-star ratings, the browsing user is more inclined to pick this product up. Each review is linked to both the user, and a product. One user can create many reviews, and one product can have mutliple reviews. 
 ### Database Relationships
 The database schema for TechForge comprises of several relationships that helps support the efficiency and functionality of the application. Below are the relationships for TechForge:
 * One category can contain many products
 * Each product belongs to one specific category
-* One user has only one profile
 * One user can create many orders
 * Each order belongs to one specific user
 * One order can contain many items
 * Each order item belongs to one order
 * One product can appear in many order items
-* Once user can create many revies
-* Each review belongs to one user
-* One product can have many reviews
-* Each review belongs to one product 
 
 ## Features 
 
 ### User Registration 
+Users can create a TechForge account via the login section of the website. As they won't have made an account yet, they can press " Sign up " in the above sentence. Fill in the correct information, using a real email, and they will be signed up! For security, accounts will be sent a verification email. 
 
 ### User Login
+Users who are returning to the website can use the account details they previously created to log back in to TechForge. Shopping basket, checkout process, and their information are stored on these logins.
 
 ### User Logout 
-
+Users can easily log out of the TechForge application via the logout page. This will sign them out, and will require logging in again to access their personal account. 
 ### Product Categories
-
+All products are assigned their own category. Each category has its own respective page. Additionally, each product has its own product details page. 
 ### Product Browsing 
-
+Users can browse all available products within each category. These categories can be accessed via the navigation bar at the top of the page. 
 ### Product Details 
-
+Individual product pages display the information of the product. Including price, category, rating, and their own image. 
 ### Shopping Basket
-
+Users can add products to their basket while browsing the different category pages. The basket total updates when they add an item to it.
 ### Basket Management
-
+Users can remove, update, and add items to their basket. Additionally, updating the quantity of the products. 
 ### Secure Checkout 
-
-### Order History 
-
-### Product Reviews 
-
-### User Profiles
+Checkout is achieved using Stripe's payment system. Validation ensures all required fields are completed before the order can be submitted.
 
 ## Technologies Used 
 ### Languages
+The following programming languages were used throughout the design, development, and deployment of TechForge:
+* Python
+* HTML
+* CSS
+* JavaScript
 ### Frameworks 
+The following frameworks were used during the development of TechForge:
+* Django
+* Bootstrap
 ### Libraries 
+The following libraries and packages were used within the TechForge project:
+* Cloudinary
+* Django Allauth
+* Stripe
+* Crispy Forms
+* WhiteNoise
+* Gunicorn
+* psycopg2
+* dj-database-url
 ### Databases
+The two databases that were used:
+* SQLite3 - Development
+* PostgreSQL - Production
 ### Tools and Programs
-
+Various tools and softwares were used throughout the design, development, testing, and deployment of TechForge: 
+* Git
+* GitHub
+* Heroku
+* Figma
+* Lucidchart
+* Google Chrome
+* Mozilla Firefox
+* Chrome DevTools
+* W3C HTML Validator
+* W3C CSS Validation
+* Code Institute Python Linter
+* Google Lighthouse
 ## Testing
+Testing was carried out during the entire development stage of TechForge to ensure the application functioned effectively and met the project criteria. The testing process included:
+ * Functionality Testing
+ * Usability Testing
+ * Responsiveness Testing
+ * Data Management Testing
+ * HTML Validation
+ * CSS Validation
+ * Python Validation
+ * Google Lighthouse Testing
+
+**[View the testing document here](TESTING.md)**
 
 ## Deployment 
+### GitHub Repository
+To create TechForge, I developed the application using Visual Studio Code. This was version controlled using Git and GitHub. 
 
+Here is how you can create a copy of my repository: 
+
+1. Access the TechForge GitHub repository `https://github.com/jordanmcodes/TechForge`
+2. Click the code button in the top right
+3. Copy the HTTPS repository url
+4. Open Visual Studio Code, or your preferred terminal, and run:
+5. `git clone https://github.com/jordanmcodes/TechForge.git`
+
+### Heroku 
+1. Log into Heroku
+2. Create a new application
+3. Choose a name, in my instance, TechForge, and region - Europe
+4. Navigate to the deploy tab
+5. Connect Heroku to the GitHub repository
+6. Select the main branch
+7. Ensure the required Config Vars have been added within the settings
+8. Confirm `requirements.txt` and `Procfile` are present in the folder
+9. Click deploy branch
+10. Open the deployed application via open app
+
+### Environmental variables
+These were the config vars that were used during the deployment to Heroku:
+- `SECRET_KEY`
+- `DATABASE_URL`
+- `CLOUDINARY_URL`
+- `STRIPE_PUBLIC_KEY`
+- `STRIPE_SECRET_KEY`
+- `STRIPE_WH_SECRET`
+- `EMAIL_HOST`
+- `EMAIL_HOST_USER`
+- `EMAIL_HOST_PASSWORD`
+- `DEFAULT_FROM_EMAIL`
 ## Acknowledgements 
+Throughout my development of the TechForge application, various sources aided the development process:
+* Code Institutes Boutique Ado project
+* Django documentation
+* Bootstrap documentation
+* Stripe Documentation
+* Cloudinary Documentation
+* W3Schools
