@@ -54,10 +54,8 @@ background-color: #3b3b3b;
 .auth-container{
     display:flex;
     justify-content: center;
-    border-radius: 10px;
     width: 400px;
     margin-top: 50px;
-    margin-left: 720px;
 }
 
 .auth-box{
