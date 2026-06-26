@@ -93,11 +93,11 @@ Google Lighthouse was used to assess the quality of TechForge, below are the res
 ## Testing Images
 Below are the images for all of the testing, validation, and lighthouse:
 ### CSS Validation
-![CSS Validation](TechForge/assets/cssvalidation.png)
+![CSS Validation](assets/cssvalidation.png)
 ### HTML Validation 
-![HTML Validation](TechForge/assets/htmlvalidation.png)
+![HTML Validation](assets/htmlvalidation.png)
 ### Lighthouse
-![Lighthouse](TechForge/assets/lighthouse.png)
+![Lighthouse](assets/lighthouse.png)
 ### Python Validation 
-![Python](TechForge/assets/pythonvalidation.png)
+![Python](assets/pythonvalidation.png)
 
