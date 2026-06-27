@@ -16,8 +16,9 @@ var style = {
         fontFamily: '"Helvetica Neue", Helvetica, sans-serif',
         fontSmoothing: 'antialiased',
         fontSize: '16px',
+        iconColor: '#ffffff',
         '::placeholder': {
-            color: '#aab7c4'
+            color: '#ffffff'
         }
     },
     invalid: {
