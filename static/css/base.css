@@ -81,6 +81,7 @@ background-color: #3b3b3b;
     max-width: 600px;
     min-height:55px;
     margin-top: 10px;
+    color: white;
 }
 
 #card-element.StripeElement--focus {
