@@ -100,3 +100,8 @@ background-color: #3b3b3b;
     text-decoration: none;
     border-radius: 6px;
 }
+
+.checkout-btn:hover{
+    background-color: lightgray;
+    color: #3b3b3b;
+}
