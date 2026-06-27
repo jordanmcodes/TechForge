@@ -94,14 +94,18 @@ background-color: #3b3b3b;
 }
 
 .checkout-btn{
+    display: inline-block;
     background-color: #3b3b3b;
     color: white;
-    padding: 10px 20px;
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: bold;
     text-decoration: none;
-    border-radius: 6px;
+    border-radius: 8px;
 }
 
 .checkout-btn:hover{
     background-color: lightgray;
     color: #3b3b3b;
+    text-decoration: none;
 }
