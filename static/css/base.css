@@ -92,3 +92,11 @@ background-color: #3b3b3b;
 #card-element.StripeElement--invalid{
     border-color: #dc3545;
 }
+
+.checkout-btn{
+    background-color: #3b3b3b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+}
